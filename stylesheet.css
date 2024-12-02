@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: linear-gradient(to right, rgb(40, 38, 95) , rgb(0, 179, 255)); */
+   
+}
+.step1Body{
+    background-image: linear-gradient(to right, rgb(40, 38, 95) , rgb(0, 179, 255));
+}
+
+.divSurvey{
+    text-align: center;
+    background-color: white;
+}
+.titleStep{
+    padding-top: 5%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.logo{
+    width: 100px;
+}
+.tilt-warp-titleStep1 {
+  font-family: "Tilt Warp", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #EDF6FF;
+    height: 120px;
+    color: #16214F;
+}
