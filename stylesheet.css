@@ -1,0 +1,163 @@
+body{
+    /* background-image: url(bgdta.jpg); */
+    /* background-image: url(bgesq.jpg); */
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p{
+    font-size: 20px;
+}
+
+footer{
+  background-color:#ba455b; 
+  text-align: center;
+  height: 90px;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.textFooter {
+  color: white;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+
+.menu {
+    position: fixed; /* Make the navbar stick to the top */
+    top: 0;          /* Align it at the very top */
+    left: 0;
+    width: 100%; 
+    background-color: #ffffff;
+    height: 80px;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  u, a:link {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: rgb(205, 0, 0);
+  }
+  
+  a:active {
+    color: #ffaf02; 
+  } 
+  
+  .txtNav {
+    font-size: 20px;
+    padding: 20px;
+    margin: 80px;
+  }
+  
+  /* Flexbox for navbar */
+  .navbar {
+    justify-content: center;    /* Center the items horizontally */
+    align-items: center;        /* Vertically align the items */
+    background-color: #333;     /* Set a background color for the navbar */
+    font-size: 20px;            /* Set a font size for the items */
+  }
+  
+  /* Flexbox for nav items */
+ 
+  
+  /* Remove default list style and text decoration for links */
+  a:link, a:visited {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;               /* Set color for unvisited links */
+  }
+  
+  /* Hover effect: change color on hover */
+  a:hover {
+    color: rgb(205, 0, 0);      /* Change text color on hover */
+    transform: scale(1.2);      /* Increase size on hover */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Active link effect: change color when active (clicking) */
+  a:active {
+    color: #ffaf02;             /* Change color when link is active */
+  }
+  
+.imglp{
+    width: 300px;
+}
+.imgName{
+    width: 140px;
+}
+.imglpHello{
+    width: 100%;
+}
+
+.chewy-regular {
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.hellocolor{
+    /* color: #2F5D62; */
+    color: #2C3E50;
+    /* color: #8E3B46; */
+    /* color: #ba455b; */
+    /* color: #FF9530; */
+    color: #ffaf02;
+}
+
+.namecolor{
+    /* color: #2F5D62; */
+    /* color: #2C3E50; */
+    /* color: #8E3B46; */
+    color: #ba455b;
+    /* color: #FF9530; */
+    /* color: #ffaf02; */
+}
+
+.arrow{
+    width: 230px;
+}
+
+.imgHorse{
+    width: 400px;
+}
+.imgContact{
+    width: 80px;
+    margin: 0 50px;
+}
+
+.col-12 {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  gap: 15px; /* Adds space between images */
+  padding: 20px; /* Adds some padding for better spacing */
+}
+
+.projHeading{
+  color: #ba455b;
+  text-align: center;
+}
+.projTitle{
+  font-weight: 400;
+  text-align: center;
+}
